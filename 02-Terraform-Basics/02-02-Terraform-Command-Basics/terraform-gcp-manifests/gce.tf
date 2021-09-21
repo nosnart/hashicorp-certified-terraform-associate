@@ -1,7 +1,7 @@
 # Terraform Settings Block
 terraform {
   required_providers {
-    aws = {
+    gcloud = {
       source  = "hashicorp/aws"
       #version = "~> 3.21" # Optional but recommended in production
     }
